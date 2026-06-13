@@ -15,6 +15,18 @@ const profileData = {
       ]
     },
     {
+      year: "2024",
+      venue: "IEEE Transactions on Neural Networks and Learning Systems, 2024, 35(6): 8414-8426",
+      title: "Direction and Residual Awareness Curriculum Learning Network for Rain Streaks Removal",
+      authors: "Yi Chang, Meiya Chen, Changfeng Yu, <strong>Yi Li</strong>, Liqun Chen, Luxin Yan",
+      citations: "",
+      image: "assets/paper-figures/2024-tnnls-tif.jpg",
+      tags: ["restoration"],
+      links: [
+        { label: "PDF", url: "assets/papers/2024-tnnls-direction-residual-awareness.pdf" }
+      ]
+    },
+    {
       year: "2022",
       venue: "IEEE Conference on Computer Vision and Pattern Recognition, 2022, 5841-5850",
       title: "Physically Disentangled Intra- and Inter-Domain Adaptation for Varicolored Haze Removal",
@@ -78,18 +90,6 @@ const profileData = {
       links: [
         { label: "PDF", url: "assets/papers/2020-spl-category-aware-aircraft-landmark.pdf" },
         { label: "Scholar", url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=W0oMWBkAAAAJ&pagesize=100&citation_for_view=W0oMWBkAAAAJ:hqOjcs7Dif8C" }
-      ]
-    },
-    {
-      year: "2024",
-      venue: "IEEE Transactions on Neural Networks and Learning Systems, 2024, 35(6): 8414-8426",
-      title: "Direction and Residual Awareness Curriculum Learning Network for Rain Streaks Removal",
-      authors: "Yi Chang, Meiya Chen, Changfeng Yu, <strong>Yi Li</strong>, Liqun Chen, Luxin Yan",
-      citations: "",
-      image: "assets/paper-figures/2024-tnnls-tif.jpg",
-      tags: ["restoration"],
-      links: [
-        { label: "PDF", url: "assets/papers/2024-tnnls-direction-residual-awareness.pdf" }
       ]
     },
     {
