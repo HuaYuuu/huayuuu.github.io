@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Yi Li's academic homepage for computer vision, adverse-weather image restoration, multimodal image fusion, and visual perception."
+    />
+    <title>Yi Li (李祎) | Computer Vision</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Back to home">
+        <span class="brand-mark">CV</span>
+        <span>Yi Li (李祎)</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#cv">Education and Experience</a>
+        <a href="#achievements">Selected Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-button" type="button" data-menu-button aria-label="Open navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero compact-hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/vision-hero.png" alt="" />
+        </div>
+        <div class="profile-panel">
+          <img class="profile-photo" src="assets/profile-photo.jpeg" alt="Portrait of Yi Li" />
+          <div class="profile-summary">
+            <h1 id="hero-title">Yi Li (李祎)</h1>
+            <ul class="profile-lines">
+              <li>Assistant Researcher and Postdoctoral Researcher</li>
+              <li>School of Ocean Engineering</li>
+              <li>Tsinghua Shenzhen International Graduate School</li>
+              <li>Research Interests: Adverse Weather Image Restoration and Understanding</li>
+              <li>Mail: <a href="mailto:li_yi@tsinghua.edu.cn">li_yi@tsinghua.edu.cn</a></li>
+              <li>Phone: +86 13297924187</li>
+            </ul>
+            <div class="hero-actions" aria-label="Primary links">
+              <a class="button primary" href="#publications">Publications</a>
+              <a class="button secondary" href="https://scholar.google.com/citations?user=W0oMWBkAAAAJ&hl=zh-CN">Google Scholar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="section-grid">
+          <div>
+            <h2 id="about-title">About Me</h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              I am an assistant researcher and postdoctoral researcher at the school of ocean engineering, Tsinghua
+              Shenzhen International Graduate School (SIGS), working with Prof. You He (何友), Academician of the Chinese Academy
+              of Engineering. I received my Ph.D. degree in control science and engineering from Huazhong University of
+              Science and Technology (HUST) in 2025, advised by Prof. Luxin Yan (颜露新), and my bachelor's degree in logistics
+              management (systems engineering track) from HUST in 2018. 
+            </p>
+            <h3 class="interest-heading">Research Interests</h3>
+            <ul class="interest-list">
+              <li>Adverse Weather Image Restoration and Understanding</li>
+              <li>Multimodal Fusion</li>
+              <li>Understanding under complex conditions</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading publication-heading">
+          <div>
+            <h2 id="publications-title">Publications</h2>
+          </div>
+          <div class="filter-group" role="group" aria-label="Publication filters">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="restoration">Restoration</button>
+            <button class="filter-button" type="button" data-filter="segmentation">Segmentation</button>
+            <button class="filter-button" type="button" data-filter="detection">Detection</button>
+          </div>
+        </div>
+        <div class="publication-list" data-publication-list></div>
+      </section>
+
+      <section class="section" id="cv" aria-labelledby="cv-title">
+        <div class="section-heading">
+          <h2 id="cv-title">Education and Experience</h2>
+        </div>
+        <div class="timeline" data-timeline></div>
+      </section>
+
+      <section class="section" id="achievements" aria-labelledby="achievements-title">
+        <div class="section-heading">
+          <h2 id="achievements-title">Selected Achievements</h2>
+        </div>
+        <div class="achievement-list" data-achievements-list></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <h2 id="contact-title">Contact</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:li_yi@tsinghua.edu.cn">li_yi@tsinghua.edu.cn</a>
+          <a href="https://scholar.google.com/citations?user=W0oMWBkAAAAJ&hl=zh-CN" aria-label="Google Scholar profile">Google Scholar</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span data-year></span> Yi Li (李祎)</span>
+      <span></span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
